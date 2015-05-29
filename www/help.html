@@ -1,0 +1,156 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="fontawesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
+	<script language="javascript" type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=GkysU7vfgx1QlTZK7cGRF3o9&v=1.1&services=true"></script>
+	<title>KGCRM</title>
+</head>
+<body>
+	<div class="html help">
+		<div class="headline">
+			<header class="tophead">
+				<a href="" class="weblogo">
+					<img src="assets/images/weblogo.png"></a>
+				<nav>
+					<a href="index.html">首页</a>
+					<!-- <a href="">附近幼儿园</a> -->
+					<a href="plugs.html">可选功能</a>
+					<a href="about.html">关于我们</a>
+					<a href="joinus.html">加入我们</a>
+					<a href="help.html" class="active">意见反馈</a>
+				</nav>
+			</header>
+		</div>
+		<section class="bnr"><img src="assets/img/yijianban.jpg"></section>
+		<section class="helpbox">
+			<div class="left">
+				<div class="ls">
+					<p class="til">意见内容：</p>
+					<textarea id="nr" class="control" rows="7" placeholder="亲爱的用户：请在这里填写您遇到的问题或者意见建议，您的建议对我们非常重要，是我们前进的动力。"></textarea>
+				</div>
+				<div class="ls">
+					<p class="til">图片上传：</p>
+					<p><label class="file"><input type="file" id="file" >上传图片</label><span>&ensp;&ensp;&ensp;文件大小不可超过1M，格式仅限jpg/png格式</span></p>
+				</div>
+				<div class="ls">
+					<p class="til">您的角色：</p>
+					<p><label class="checkraido"><input type="radio" name="rule" checked="checked"><span></span>教师</label><label class="checkraido"><input type="radio" name="rule"><span></span>家长</label><label class="checkraido"><input type="radio" name="rule"><span></span>园长</label><label class="checkraido"><input type="radio" name="rule"><span></span>其他</label></p>
+				</div>
+				<div class="ls">
+					<p class="til">联系方式：</p>
+					<input type="text" class="control" id="lx" placeholder="建议您留下常用邮箱，或者手机号，便于我们及时联系您">
+				</div>
+				<div class="ls">
+					<input type="button" value="确认提交" class="btn" id="submit">
+				</div>
+			</div>
+			<div class="right">
+				<p class="til">客服电话</p>
+				<p class="text">15221016459</p>
+				<p class="til">功能改进QQ群</p>
+				<p class="text">436596145</p>
+			</div>
+		</section>
+		<div class="footer-wrapp">
+			<nav class="fnav">
+				<div class="center960 clearfix">
+					<dl>
+						<dt>关于我们</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="">KGCRM介绍</a>
+								</li>
+								<li>
+									<a href="">加入KGCRM</a>
+								</li>
+								<li>
+									<a href="">媒体报道</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>使用指南</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="">KGCRM产品使用指南</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>友情链接</dt>
+						<dd>
+							<ul>
+								<li>
+									<a target="_blank" href="">KGCRM工作圈</a>
+								</li>
+								<li>
+									<a target="_blank" href="">微信公众平台</a>
+								</li>
+								<li>
+									<a target="_blank" href="">微信公众平台运营规范</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>联系方式</dt>
+						<dd>
+							<ul>
+								<li>电话：15221016459</li>
+								<li>邮箱：master@kgcrm.net</li>
+								<li>地址：上海浦东新区郭守敬路498弄22号3楼</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</nav>
+			<footer class="footer">
+				<div class="center960">
+					<div class="f-copyright">
+						Copyright &copy; 2013-2015
+						<a href="xxxxxxxxxxx">www.KGcrm.com</a>
+						All Rights Reserved 上海KGCRM技术有限公司版权所有
+						<br>沪ICP备xxxxxxxxxx号
+					</div>
+					<div class="f-sns">
+						<a class="f-wechat circle" href="javascript:;">
+							<i class="fa fa-qrcode"></i>
+							<span><img alt="微客来公众账号" src="assets/images/global_qrcode.jpg"><em>微信扫描关注公共账号</em></span>
+						</a>
+						<a target="_blank" class="circle" href="http://weibo.com/vcooline"><i class="fa fa-weibo"></i></a>
+						<a target="_blank" class="circle" href="http://t.qq.com/vcooline"><i class="fa fa-tencent-weibo"></i></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$('body').on('click','#submit',function(){
+				if($('#nr').val().replace(/\s/ig,'').length==0){
+					alert('意见内容不可为空');
+					return false;
+				}
+				if($('#lx').val().replace(/\s/ig,'').length==0){
+					alert('联系方式不可为空');
+					return false;
+				}
+				$(this).val('正在提交····');
+				setTimeout(function(){
+					alert('提交成功')
+					window.location.href = window.location.href;
+				},2000);
+			})
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+body,input,textarea{padding:0;	margin:0;font-family:"微软雅黑",Arial, Helvetica, sans-serif; background: #f9f9f9; }
+div, h1, h2, h3, h4, p, form, label,  textarea, img, span{margin:0; padding:0; border:none;}
+a{ text-decoration:none;}
+ul{	margin:0; 	padding:0; 	list-style-type:none;}
+.clearfix{	clear:both; overflow: hidden;}
+* {margin:0;padding:0; outline: 0;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%
+}
+body {
+    position: relative;
+    overflow-x: hidden;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "\5FAE\8F6F\96C5\9ED1",arial;
+    -webkit-text-size-adjust: none;
+}
+body, p, form, h1, h2, h3, h4, h5, h6, ul, ol, li, section, div, * {
+    padding: 0;
+    margin: 0
+}
+ul{ list-style-type:none;}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+body, select, input, textarea,div,p{ font-size: 13px; line-height: 22px;}
+video {
+    display: inline-block;
+    width:100%;
+    background:#000;
+}
+
+dl,
+ul,
+p{-webkit-margin-before:0em;-webkit-margin-after:0em;}
+a {
+    text-decoration: none; color: #333;
+    transition: color 0.3s,font-size 0.3s,background-color 0.3s;
+    -moz-transition: color 0.3s,font-size 0.3s,background-color 0.3s;
+    -webkit-transition: color 0.3s,font-size 0.3s,background-color 0.3s;
+}
+a:hover{ color: #3396d1; }
+.html{margin: auto;min-height: 100%; overflow: hidden;  position: relative; padding: 81px 0 0;}
+
+.hide{ display: none;}
+
+.headline{ height:81px; border-bottom: 1px solid #ddd; background: #fff; position: fixed; left: 0; top: 0; width: 100%; z-index: 100;}
+.headline .tophead{ width: 960px; margin: 0 auto; position: relative; height: 100%;}
+.headline .tophead .weblogo{ position: relative; height: 100%; display: block; float: left;}
+.headline .tophead .weblogo img{ height: 60%; position: absolute; left: 0; top: 20%;}
+.headline .tophead nav{ position: absolute; right: 0; top: 50%; margin: -12px 0 0;}
+.headline .tophead nav a{ display: block; float: left; color: #333;  font-weight: bold; padding: 0 25px 0; text-align: center; height: 24px; line-height: 24px; position: relative;}
+.headline .tophead nav a:before{ content: ""; display: block; height: 13px; width: 9px; position: absolute; left: 0; top: 50%; margin: -6px 0 0 -4px; background: url(../images/ico01.png) no-repeat; opacity: 0.2;}
+.headline .tophead nav a:nth-last-child(1){ padding-right: 0;}
+.headline .tophead nav a:hover,.headline .tophead nav a.active{ color: #3396d1;}
+
+.banner{ height: 500px; width: 100%; overflow: hidden; position: relative;}
+.banner .goleft{ height: 99px; width: 99px; opacity: 0.3; display: block; position: absolute; left: 50px; top: 200px; background: url(../images/goleft.png) no-repeat; z-index: 99;}
+.banner .goright{ height: 99px; width: 99px; opacity: 0.3; display: block; position: absolute; right: 50px; top: 200px; background: url(../images/goright.png) no-repeat;  z-index: 99;}
+.banner li{ height: 500px; width: 100%;  float: left;position: absolute; left: 0; top: 0;}
+.banner li img{ position: absolute; left: 50%; top: 0; margin-left: -960px;}
+.banner li:nth-child(1){ z-index: 1;}
+.banner ul{ height: 500px; width: 100%;}
+.banner .circle{ position: absolute; z-index: 10; width: 100%; text-align: center; left: 0; bottom: 20px;}
+.banner .circle span{ display: inline-block; height: 10px; width: 10px; margin: 0 7px; background: #fff; border-radius: 50%; opacity: 0.3;}
+.banner .circle span.active,.banner .circle span:nth-child(1){ opacity: 1;}
+
+
+.logincont{ width: 100%; background:#fff;}
+.cont{ width: 960px; margin: 0 auto; overflow: hidden; padding: 20px 0 20px;}
+/*.cont .left{ width: 300px; float: left; border:1px solid #ddd; border-radius: 3px;}*/
+.cont .left{ width: auto; float: right;text-align: center; border:1px solid #ddd; overflow: hidden;}
+.cont .left img.ma{ width: 122px; border-left:1px solid #ddd; float: right;}
+.cont .left h1{ font-size: 24px; color: #999; padding: 5px 0 0 10px; float: left; line-height: 32px;}
+.cont .left h1 .d{ margin-right: 5px; font-size: 38px; display: block; line-height: 46px;}
+.cont .left h1 p{ margin-right: 5px; font-size: 24px; display: block; line-height: 32px;}
+.cont .left h1 p span{ color: #666;}
+.cont .right{  float: left; width: 630px; padding: 10px 0 0;}
+.cont .right img{ float: left;}
+.cont .right h2{ font-size: 18px; color: #3396d1; margin-left: 0;}
+.cont .right p{ color: #666; padding: 8px 0 0; margin-left: 0;}
+.cont .right p i{ margin-right: 5px;}
+
+.fnav{ background: #303437;}
+.center960{ width: 960px; margin: 0 auto; padding: 35px 0;}
+.fnav dl{ float: left; width: 238px;}
+.fnav dl dt{color: #3396d1; font-size: 16px; height: 22px; line-height: 22px; margin-bottom: 12px;}
+.fnav dl dd li{ color: #767f93; font-size: 12px;height: 24px;line-height: 24px;}
+.fnav dl dd li a{ color: #b4b9c2;}
+.fnav dl dd li a:hover{ color: #fff;}
+.footer{background-color: #282c2f;color: #767f93;line-height: 24px;}
+.footer .center960{ padding: 17px 0; position: relative;}
+.footer a{ color: #767f93;}
+.footer a:hover{ color: #3396d1;}
+.footer .f-sns{height: 42px; margin-top: -21px;position: absolute;right: 0;top: 50%;}
+.footer .f-sns a{background-color: #393c3f;  color: #fff;  float: left;font-size: 26px; height: 42px; border-radius: 50%;  line-height: 42px; margin-left: 16px; position: relative;text-align: center; width: 42px;}
+.footer .f-sns a i{ line-height: 42px;}
+.footer .f-sns a span{background-color: #fff;border-radius: 0 0 5px 5px;bottom: 52px; display: none;left: 50%;margin-left: -81px; padding: 8px 8px 0; position: absolute;width: 146px;}
+.footer .f-sns a span em{color: #767f93; display: block;font-size: 13px;font-style: normal;line-height: 26px;}
+.footer .f-sns a span img{ width: 100%;}
+.footer .f-sns a:hover span{ display: block;}
+
+.introlist{ width: 960px; margin: 0 auto 0; padding: 0 0 30px;}
+.introlist .tabls{ padding: 30px 0; overflow: hidden;}
+.introlist .tabls a{ display: block; position: relative; float: left; height: 60px; font-size: 24px; padding: 10px 0; line-height: 40px; width: 33.3%; text-align: center; border-right: 1px solid #f9f9f9; background: #aaa; color: #fff;}
+.introlist .tabls a:nth-child(1){ border-radius: 7px 0 0 7px;}
+.introlist .tabls a:nth-child(2){ width: 33.4%;}
+.introlist .tabls a:nth-last-child(1){ border-radius: 0 7px 7px 0; border:none;}
+.introlist .tabls a:hover,.introlist .tabls a.active{ background: #3396d1;}
+.introlist .tabls a.active:after{ position: absolute; left: 50%; bottom: -7px; margin-left: -3px; content: ""; display: block; border-width: 7px 6px 0px 6px; border-style: solid; border-color: #3396d1 transparent transparent transparent;}
+
+
+.introlist .lists{ width: 960px; position: relative; }
+/*.introlist .lists .funtab{ width: 960px; position: absolute; height: 532px; left: 0; top: 0;}*/
+.introlist .lists .funbox{ overflow: hidden; width: 960px;}
+.introlist .lists .funtab .ls{ height: 490px; width: 960px; padding: 15px 0;  position: relative;}
+.introlist .lists .funtab .ls.bgwhite:before{ display:block; height: 490px; width: 1920px; top: 0; left: 50%; background: #f1f1f1; content: ""; position: absolute; margin-left: -960px;}
+.introlist .lists .funtab .ls:nth-child(1){ padding-top: 0;}
+.introlist .lists .funtab .ls:nth-last-child(1){ border-bottom: none;}
+.introlist .lists .funtab .text{ width: 620px; margin: 30px 0 0 0; float: left; z-index: 2; position: relative;}
+.introlist .lists .funtab .ls.bgwhite .text{ float: right;}
+.introlist .lists .funtab .text h2{ color: #3396d1;border-bottom: 1px solid #ddd;  font-size: 36px; height: 80px; line-height: 45px;}
+.introlist .lists .funtab .text h2 img{ margin-right: 10px;}
+.introlist .lists .funtab .text h4{ color: #666; font-size: 14px; margin-top: -14px; text-align: center;}
+.introlist .lists .funtab .text h4 span{ background: #f9f9f9; padding: 0 20px;}
+.introlist .lists .funtab .ls.bgwhite .text h4 span{ background: #f1f1f1;}
+.introlist .lists .funtab .text p{ margin: 30px 0 0; font-size: 15px; line-height: 26px; color: #333; border-radius: 30px; border:10px dotted #fefefe; padding:  25px 30px;}
+.introlist .lists .funtab .iph{ float: right; width: 235px; height: 480px; padding: 52px 0 0 16px; background: url(../images/iPhone4s.png) no-repeat; background-size: 100% auto; position: relative; z-index: 2;}
+.introlist .lists .funtab .ls.bgwhite .iph{ float: left;background: url(../images/iPhone4sb.png) no-repeat; background-size: 100%}
+.introlist .lists .funtab .iph .imgs{ height: 410px; width: 205px; overflow: hidden; position: relative;}
+.introlist .lists .funtab .iph .imgs ul{ overflow: hidden; width: 99999px; position: absolute; left: 0; top: 0;}
+.introlist .lists .funtab .iph .imgs ul li{ float: left; width: 205px;}
+.introlist .lists .funtab .iph .imgs ul li img{ width: 100%;}
+.introlist .lists .funtab .iph .imgs .circle{ position: absolute; z-index: 10; width: 100%; text-align: center; left: 0; bottom: 0;}
+.introlist .lists .funtab .iph .imgs .circle span{ display: inline-block; cursor: pointer; height: 10px; width: 10px; margin: 0 7px; background: #222; border-radius: 50%; opacity: 0.3;}
+.introlist .lists .funtab .iph .imgs .circle span.active,.introlist .lists .funtab .iph .imgs .circle span:nth-child(1){ opacity: 1;}
+.introlist .lists .funtab .iph .imgs a.goleft{ display: none; position: absolute; left: 0; top: 132px; height: 62px; width: 31px; background: url(../images/agoleft.png) no-repeat;}
+.introlist .lists .funtab .iph .imgs a.goright{ display: none; position: absolute; right: 0; top: 132px; height: 62px; width: 31px; background: url(../images/agoright.png) no-repeat;}
+
+.introlist .lists .funtab .ls.regls{ height: 400px; overflow: hidden;}
+.introlist .lists .funtab .ls.regls .til{ font-size: 20px; font-weight: bold; color: #3396d1; padding: 20px 0;}
+.introlist .lists .funtab .ls.regls .reg{ float: left; width: 150px; margin: 0 52px 0 0; text-align: center; font-weight: bold; color: #666; position: relative; }
+.introlist .lists .funtab .ls.regls .reg p{font-size: 18px; padding: 30px 0 0;height: 80px; border: 2px solid #fff; position: relative; border-radius: 20px 20px 0 0;}
+.introlist .lists .funtab .ls.regls .reg p:before{ content: ''; display: block; position: absolute; right: -40px; bottom: 20px; width: 29px; height: 23px; background: url(../images/ico_aro.png) no-repeat;}
+.introlist .lists .funtab .ls.regls .reg p:after{ content: ''; display: none; position: absolute; left: 50%; bottom: -12px; border-width:5px 5px 5px 5px; border-style: solid; border-color: #fff transparent transparent transparent; }
+.introlist .lists .funtab .ls.regls .reg:nth-last-child(1){ margin: 0;}
+.introlist .lists .funtab .ls.regls .reg.two p{font-size: 14px; padding: 4px 0 0;}
+.introlist .lists .funtab .ls.regls .reg img{ width: 100%; border:1px solid #d8d8d8; border-top: 5px solid #d8d8d8; border-radius: 0 0 15px 15px;}
+
+.introlist .lists .featurebtn{ position: absolute; right: -120px; top: 0; z-index: 11; width: 100px;}
+.introlist .lists .featurebtn.fixed{ position: fixed; left: 50%; margin-left: 500px; top: 70px;}
+.introlist .lists .featurebtn a{ display: block; width: 100px; margin-bottom: 5px; text-align: center; font-size: 14px; background: #ccc; color: #fff; line-height: 30px; height: 30px; position: relative;}
+/*.introlist .lists .featurebtn span{ display: block; width: 80px; margin: 5px 0 0;}*/
+.introlist .lists .featurebtn a.active{ background: #77c04b;}
+.introlist .lists .featurebtn a.active:before{ position: absolute; left: -10px; bottom: 0;  content: ""; display: block; border-width: 15px 10px 15px 0px; border-style: solid; border-color: transparent #77c04b transparent transparent;}
+.join-bann{ height: 286px; background: url(../img/join_banner.jpg) no-repeat center;}
+.joinlist{ overflow: hidden; width: 960px; margin: 60px auto; position: relative;}
+.joinlist .left{ width: 200px; float: left; height: 2000px; border-right: 1px solid #e1e1e1; position: absolute; left: 0; top: 0;}
+.joinlist .left li{ height: 35px; line-height: 35px;}
+.joinlist .left a{ color: #3396d1;}
+.joinlist .left a span{ margin-right: 18px;}
+.joinlist .left li a:hover,.joinlist .left li.active a{ color:#77c04b;}
+.joinlist .right{ width: 690px; float: right;}
+.joinlist .right .email{ height: 19px; line-height: 19px; font-size: 18px; color: #77c04b; margin-bottom: 40px; padding-left: 30px; background: url(../images/email.png) no-repeat left center;}
+.joinlist .right .item{ display: none; padding-bottom: 40px;}
+.joinlist .right .item:nth-child(1){ display: block;}
+.joinlist .right h4{font-size: 20px;color: #555;font-weight: bold;margin-bottom: 14px;}
+.joinlist .right h6{font-size: 16px;color: #3396d1;margin-bottom: 24px;font-weight: bold;}
+.joinlist .right p{ color: #666; line-height: 32px;}
+
+
+.myguide{ width: 960px; margin: 0 auto; padding: 5px 0 30px;}
+.myguide .til{ font-size: 20px; font-weight: bold; color: #3396d1; padding: 20px 0;}
+.myguide ul{ overflow: hidden;}
+.myguide ul li{ float: left; width: 150px; margin: 0 52px 0 0; text-align: center; font-weight: bold; color: #666; position: relative; }
+.myguide ul li p{font-size: 18px; padding: 30px 0 0;height: 80px; border: 2px solid #fff; position: relative; border-radius: 20px 20px 0 0;}
+.myguide ul li p:before{ content: ''; display: block; position: absolute; right: -40px; bottom: 20px; width: 29px; height: 23px; background: url(../images/ico_aro.png) no-repeat;}
+.myguide ul li p:after{ content: ''; display: none; position: absolute; left: 50%; bottom: -12px; border-width:5px 5px 5px 5px; border-style: solid; border-color: #fff transparent transparent transparent; }
+.myguide ul li:nth-last-child(1){ margin: 0;}
+.myguide ul li.two p{font-size: 14px; padding: 4px 0 0;}
+.myguide ul li img{ width: 100%; border:1px solid #d8d8d8; border-top: 5px solid #d8d8d8; border-radius: 0 0 15px 15px;}
+
+
+.guidebox{overflow: hidden; width: 960px; margin: 60px auto; position: relative;}
+.guidebox .left{width: 200px; padding-right: 15px; height: 2000px; border-right: 1px solid #e1e1e1; position: absolute; left: 0; top: 0;}
+.guidebox .left .toptab{ height: 30px;}
+.guidebox .left .toptab a{ display: block;height: 30px; line-height: 30px; background: #999; color: #fff; text-align: center;}
+.guidebox .left .toptab a:nth-child(1){ border-radius: 7px 7px 0 0;}
+.guidebox .left .toptab a.active,.guidebox .left .toptab a:hover{ background: #3396d1;}
+.guidebox .left ul{counter-reset:num;}
+.guidebox .left ul li{ line-height: 35px; border-bottom: 1px solid #ddd; border-top: 1px solid #fff; padding: 0 0 0 10px;}
+.guidebox .left ul li:before{content:counters(num,'.') '.';counter-increment:num; padding: 0 10px 0 0;}
+.guidebox .left ul p{ font-weight: bold; padding: 5px 0 0 5px; font-size: 12px;}
+.guidebox .left ul p span{ color: #3396d1; font-weight: bold;}
+.guidebox .right{ width: 740px; float: right;}
+.guidebox .right .title{ color: #3396d1; font-size: 18px; border-bottom: 1px solid #ddd; padding: 0 0 10px 0; margin-bottom: 30px;}
+.guidebox .right .text{ height: 300px;}
+.plugs .ls{ height: 490px; width: 740px; padding: 15px 0;  position: relative; border-bottom: 1px dotted #999;}
+/*.plugs .ls.bgwhite:before{ display:block; height: 490px; width: 1920px; top: 0; left: 50%; background: #f1f1f1; content: ""; position: absolute; margin-left: -960px;}*/
+.plugs .ls:nth-child(1){ padding-top: 0;}
+.plugs .ls:nth-last-child(1){ border-bottom: none;}
+.plugs .text{ width: 480px;  float: left; z-index: 2; position: relative;}
+.plugs .ls.bgwhite .text{ float: right;}
+.plugs .text h2{ color: #3396d1;border-bottom: 1px solid #ddd;  font-size: 36px; height: 80px; line-height: 45px;}
+.plugs .text h2 img{ margin-right: 10px;}
+.plugs .text h4{ color: #666; font-size: 14px; margin-top: -14px; text-align: center;}
+.plugs .text h4 span{ background: #f9f9f9; padding: 0 20px;}
+.plugs .ls.bgwhite .text h4 span{ background: #f1f1f1;}
+.plugs .text p{ margin: 30px 0 0; font-size: 15px; line-height: 26px; color: #333; border-radius: 30px; border:10px dotted #fefefe; padding:  25px 30px;}
+.plugs .iph{ float: right; width: 235px; height: 480px; padding: 52px 0 0 16px; background: url(../images/iPhone4s.png) no-repeat; background-size: 100% auto; position: relative; z-index: 2;}
+.plugs .ls.bgwhite .iph{ float: left;background: url(../images/iPhone4sb.png) no-repeat; background-size: 100%}
+.plugs .iph .imgs{ height: 410px; width: 205px; overflow: hidden; position: relative;}
+.plugs .iph .imgs ul{ overflow: hidden; width: 99999px; position: absolute; left: 0; top: 0;}
+.plugs .iph .imgs ul li{ float: left; width: 205px;}
+.plugs .iph .imgs ul li img{ width: 100%;}
+.plugs .iph .imgs .circle{ position: absolute; z-index: 10; width: 100%; text-align: center; left: 0; bottom: 0;}
+.plugs .iph .imgs .circle span{ display: inline-block; cursor: pointer; height: 10px; width: 10px; margin: 0 7px; background: #222; border-radius: 50%; opacity: 0.3;}
+.plugs .iph .imgs .circle span.active,.introlist .lists .funtab .iph .imgs .circle span:nth-child(1){ opacity: 1;}
+
+.aboutbox{overflow: hidden; width: 960px; margin: 30px auto; position: relative;}
+.aboutbox .map{ padding: 30px 0 0; border-top: 1px solid #ddd; overflow: hidden;}
+.aboutbox .map .left{ float: left; width: 400px;}
+.aboutbox .map .left .ls{ padding: 0 0 20px 0;}
+.aboutbox .map .left p.til{ font-size: 18px; padding: 0 0 5px 0;}
+.aboutbox .map .left .green,.aboutbox .map .left a{ color: #3396d1;}
+.aboutbox .map .right{ float: right; width: 550px;}
+
+.helpbox{overflow: hidden; width: 960px; margin: 30px auto; position: relative;}
+.helpbox .left{ width: 700px; border-right: 1px solid #ddd; float: left;}
+.helpbox .left .ls{ padding: 0 40px 30px 70px; position: relative;}
+.helpbox .left .ls input.control,.helpbox .left .ls textarea.control{ display: block; height: 30px; line-height:normal; text-indent: 10px; background: #fff; border:1px solid #ddd; width: 100%;}
+.helpbox .left .ls textarea.control{ height: auto; padding: 5px 0 0 5px; text-indent: 0;}
+.helpbox .left .ls .til{ position: absolute; width: 70px;  left: 0; top: 0; line-height: 30px;}
+.helpbox .left .ls .btn{height: 30px; border:4px solid #3396d1; line-height: 22px; color: #fff; font-size: 12px;padding: 0 30px; display: inline-block; cursor: pointer; background: #3396d1; position: relative; text-align: center;}
+.helpbox .right{ float: right; width: 250px;}
+.helpbox .right .til{}
+.helpbox .right .text{ color: #3396d1; padding: 0 0 10px;}
+
+label.file{ height: 30px; border:4px solid #3396d1; line-height: 22px; color: #fff; font-size: 12px; width: 100px; display: inline-block; cursor: pointer; background: #3396d1; position: relative; text-align: center;}
+label.file:hover{border:4px solid #1574ac;}
+label.file input{ position: absolute; font-size: 100px; right: 0; top: 0; opacity: 0;cursor: pointer;}
+
+
+label.checkraido{ margin-right: 20px; position: relative; overflow: hidden; display: inline-block; height: 30px; line-height: 30px; padding: 0 0 0 20px;}
+label.checkraido input{ position: absolute;  left: -30px; top: 0;}
+label.checkraido input+span{ display: block; position: absolute; left: 0; top: 50%; margin-top: -7px; height: 14px; width: 14px; border:2px solid #3396d1; background: #fff; border-radius: 50%;}
+label.checkraido input:checked+span{ background: #3396d1;}
+
+.bnr{ text-align: center; margin: 0 auto;}
+.bgab{ text-align: center; margin: 0 auto; background: #fff;}

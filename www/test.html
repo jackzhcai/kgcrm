@@ -1,0 +1,125 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="fontawesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
+	<script language="javascript" type="text/javascript" src="assets/js/main.js"></script>
+	<title>KGCRM</title>
+</head>
+<body>
+	<div class="html test">
+		<div class="headline">
+			<header class="tophead">
+				<a href="" class="weblogo">
+					<img src="assets/images/weblogo.png"></a>
+				<nav>
+					<a href="index.html" class="active">首页</a>
+					<a href="">附近幼儿园</a>
+					<a href="guide.html">使用指南</a>
+					<a href="about.html">关于我们</a>
+					<a href="joinus.html">加入我们</a>
+				</nav>
+			</header>
+		</div>
+		<section class="testbox">
+			<div class="left"></div>
+			<div class="right"></div>
+		</section>
+		<div class="footer-wrapp">
+			<nav class="fnav">
+				<div class="center960 clearfix">
+					<dl>
+						<dt>关于我们</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="">KJCRM介绍</a>
+								</li>
+								<li>
+									<a href="">加入KJCRM</a>
+								</li>
+								<li>
+									<a href="">媒体报道</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>使用指南</dt>
+						<dd>
+							<ul>
+								<li>
+									<a href="">KJCRM产品使用指南</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>友情链接</dt>
+						<dd>
+							<ul>
+								<li>
+									<a target="_blank" href="">KJCRM工作圈</a>
+								</li>
+								<li>
+									<a target="_blank" href="">微信公众平台</a>
+								</li>
+								<li>
+									<a target="_blank" href="">微信公众平台运营规范</a>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>联系方式</dt>
+						<dd>
+							<ul>
+								<li>电话：4000-xxx-xxx</li>
+								<li>邮箱：xxxxxxxxx@xxxxxxxxx.com</li>
+								<li>地址：上海浦东新区郭守敬路498弄22号3楼</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</nav>
+			<footer class="footer">
+				<div class="center960">
+					<div class="f-copyright">
+						Copyright &copy; 2013-2015
+						<a href="xxxxxxxxxxx">www.kjcrm.com</a>
+						All Rights Reserved 上海KJCRM技术有限公司版权所有
+						<br>沪ICP备xxxxxxxxxx号
+					</div>
+					<div class="f-sns">
+						<a class="f-wechat circle" href="javascript:;">
+							<i class="fa fa-qrcode"></i>
+							<span><img alt="微客来公众账号" src="assets/images/global_qrcode.jpg"><em>微信扫描关注公共账号</em></span>
+						</a>
+						<a target="_blank" class="circle" href="http://weibo.com/vcooline"><i class="fa fa-weibo"></i></a>
+						<a target="_blank" class="circle" href="http://t.qq.com/vcooline"><i class="fa fa-tencent-weibo"></i></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$('body').on('click','a[data-y]',function(){
+				var topid = $(this).data('y');
+				$(window).scrollTop($(topid).offset().top-141);
+			})
+			$(window).scroll(function(){
+				var gtop = $(window).scrollTop();
+				if(gtop>50){
+					$('.left').css('top',gtop-50);
+				}else{
+					$('.left').css('top',0);
+				}
+			})
+		})
+	</script>
+</body>
+</html>

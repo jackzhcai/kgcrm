@@ -1,0 +1,99 @@
+body.style01{ background: #f7faee;}
+.bnone{ background: #97cf76;}
+.bannerone{ width: 960px; margin: 0 auto; background: url(../img/01ban02.png) no-repeat center top; overflow: hidden; height: 500px;}
+.bannerone ul{ width: 600px; float: left; padding: 0 0 0 22px; margin-top: 88px;}
+.bannerone ul li{  height: 75px; margin-bottom: 1px; background: rgba(255,255,255,1); position: relative; color: #fff; opacity: 0.45; cursor: pointer;}
+.bannerone ul li p.title{ font-size: 18px; line-height: 75px; text-align: right; padding-right: 5px; font-weight: bold;}
+.bannerone ul li:after{ content: ""; display: block; height: 75px; opacity: 1; width: 57px; position: absolute; right: -57px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: -125px 0;}
+.bannerone ul li .text span{ z-index: 10; display: block;}
+.bannerone ul li .text span em{ display: block; height: 75px;}
+.bannerone ul li.a{ padding: 0 0 0 100px;}
+.bannerone ul li.a:before{ content: ""; display: block; height: 75px; opacity: 1; width: 22px; position: absolute; left: -22px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: 0 0;}
+.bannerone ul li.a p{ background: #4d838c; height: 75px; }
+.bannerone ul li.a p.title{ position: absolute; left: 0; top: 0; width: 100px;border-right: 1px solid #64a9b5;}
+.bannerone ul li.a .text{ font-size: 16px; padding: 15px 5px 0 5px; position: relative;}
+.bannerone ul li.a .text span{ position: absolute;  height: 75px; background: rgba(255,255,255,1); right: 0; top: 0; }
+.bannerone ul li.a .text span:before{content: ""; display: block; height: 75px; opacity: 1; width: 56px; position: absolute; left: -1px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: -66px 0;}
+.bannerone ul li.b{ padding: 0 0 0 150px;}
+.bannerone ul li.b:before{ content: ""; display: block; height: 75px; opacity: 1; width: 22px; position: absolute; left: -22px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: 0 -75px;}
+.bannerone ul li.b p{ background: #64504f; height: 75px; }
+.bannerone ul li.b p.title{ position: absolute; left: 0; top: 0; width: 150px;border-right: 1px solid #856b69;}
+.bannerone ul li.b .text{ font-size: 16px; padding: 15px 5px 0 5px; position: relative;}
+.bannerone ul li.b .text span{ position: absolute;  height: 75px; background: rgba(255,255,255,1); right: 0; top: 0; }
+.bannerone ul li.b .text span:before{content: ""; display: block; height: 75px; opacity: 1; width: 56px; position: absolute; left: -1px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: -66px -75px;}
+.bannerone ul li.c{ padding: 0 0 0 200px;}
+.bannerone ul li.c:before{ content: ""; display: block; height: 75px; opacity: 1; width: 22px; position: absolute; left: -22px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: 0 -150px;}
+.bannerone ul li.c p{ background: #ff9b01; height: 75px; }
+.bannerone ul li.c p.title{ position: absolute; left: 0; top: 0; width: 200px;border-right: 1px solid #ffb23b;}
+.bannerone ul li.c .text{ font-size: 16px; padding: 15px 5px 0 5px; position: relative;}
+.bannerone ul li.c .text span{ position: absolute; height: 75px; background: rgba(255,255,255,1); right: 0; top: 0; }
+.bannerone ul li.c .text span:before{content: ""; display: block; height: 75px; opacity: 1; width: 56px; position: absolute; left: -1px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: -66px -150px;}
+.bannerone ul li.d{ padding: 0 0 0 250px;}
+.bannerone ul li.d:before{ content: ""; display: block; height: 75px; opacity: 1; width: 22px; position: absolute; left: -22px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: 0 -225px;}
+.bannerone ul li.d p{ background: #c9b997; height: 75px; }
+.bannerone ul li.d p.title{ position: absolute; left: 0; top: 0; width: 250px;border-right: 1px solid #e4d2ad;}
+.bannerone ul li.d .text{ font-size: 16px; padding: 15px 5px 0 5px; position: relative;}
+.bannerone ul li.d .text span{ position: absolute;  height: 75px; background: rgba(255,255,255,1); right: 0; top: 0; }
+.bannerone ul li.d .text span:before{content: ""; display: block; height: 75px; opacity: 1; width: 56px; position: absolute; left: -1px; top: 0; background: url(../images/01bgbn01.png) no-repeat; background-position: -66px -225px;}
+.bannerone .ph{ float: right; padding: 55px 20px 0 0;}
+
+.style01 a{ color: #77c04b;}
+.style01 .headline .tophead nav a:hover,.style01 .headline .tophead nav a.active{ color: #77c04b;}
+.style01 .cont .right h2{color: #666;}
+.style01 .introlist .tabls a.active::after{ border-color: #77c04b transparent transparent;}
+.style01 .introlist .lists .featurebtn a.active{ background-color: #77c04b;}
+.style01 .introlist .lists .featurebtn a.active::before{border-color: transparent #77c04b transparent transparent;}
+.style01 .introlist .tabls a:hover,.style01 .introlist .tabls a.active{ background-color: #77c04b; color: #fff;}
+.style01 .introlist .lists .funtab .text h2{ color: #666;}
+.style01 .introlist .lists .funtab .ls.regls .til{ color: #77c04b;}
+.style01 .fnav dl dt{ color: #77c04b;}
+.style01 .introlist .lists .funtab .ls.bgwhite::before{ background-color: #f8f5ec;}
+.style01 .introlist .tabls a{ background: #c2e6ac; color: #fff;}
+.style01 .introlist .lists .funtab .ls.bgwhite:before{ display:block; height: 490px; width: 1920px; top: 0; left: 50%; background: #eceee6; content: ""; position: absolute; margin-left: -960px;}
+
+.style02{ background: #f4eddb;}
+.style02 a{ color: #3bb1b1;}
+.style02 .headline .tophead nav a:hover,.style02 .headline .tophead nav a.active{ color: #3bb1b1;}
+.style02 .cont .right h2{color: #3bb1b1;}
+.style02 .introlist .tabls a.active::after{ border-color: #3bb1b1 transparent transparent;}
+.style02 .introlist .lists .featurebtn a.active{ background-color: #3bb1b1;}
+.style02 .introlist .lists .featurebtn a.active::before{border-color: transparent #3bb1b1 transparent transparent;}
+.style02 .introlist .tabls a:hover,.style02 .introlist .tabls a.active{ background-color: #3bb1b1; color: #fff;}
+.style02 .introlist .lists .funtab .text h2{ color: #666;}
+.style02 .introlist .lists .funtab .ls.regls .til{ color: #3bb1b1;}
+.style02 .fnav dl dt{ color: #3bb1b1;}
+.style02 .introlist .lists .funtab .ls.bgwhite::before{ background-color: #f8f5ec;}
+.style02 .introlist .tabls a{ background: #a3cccc; color: #fff;}
+.bannertwo{ width: 960px; margin: 0 auto; background: url(../img/01ban02.png) no-repeat center top; overflow: hidden; height: 500px;}
+.bannertwo ul{ width: 690px; float: left; padding: 0 0 0 22px; margin-top: 70px;}
+.bannertwo ul li{   position: relative; color: #3bb1b1; opacity: 0.4; cursor: pointer; float: left; width: 150px; box-shadow: 0 0 5px 3px #eae1cb;  margin-right: 20px; background-color: #f9f9f9; border-radius: 10px;}
+.bannertwo ul li:nth-last-child(1){ margin: 0;}
+.bannertwo ul li p.title{ font-size: 18px; line-height: 75px; text-align: center; padding-right: 5px; font-weight: bold; background: url(../images/02bg01.png) repeat-x left bottom;}
+.bannertwo ul li .text{ color: #333; padding: 10px 5px 30px 10px; text-indent: 20px; line-height: 36px;}
+.bannertwo ul li:nth-child(2),.bannertwo ul li:nth-child(4){ margin-top: 71px;}
+.bannertwo ul li:nth-child(3){ margin-top: 35px;}
+.bannertwo .ph{ float: right; padding: 55px 20px 0 0;}
+.bannertwo .circle{ width: 670px; height: 76px; background: url(../images/02bg02.png) no-repeat center; position: relative; bottom: -83px; margin-left: 22px;}
+.bannertwo .circle span{ border:5px solid #3bb1b1; border-radius: 50%; background: #fff; height: 30px; width: 30px; display: block; position: absolute; opacity: 0.4; color: #3bb1b1; text-align: center; line-height: 20px;}
+.bannertwo .circle span:nth-child(1){ left: 60px; top: -11px;}
+.bannertwo .circle span:nth-child(2){ left: 237px; top: 58px;}
+.bannertwo .circle span:nth-child(3){ left: 411px; top: 14px;}
+.bannertwo .circle span:nth-child(4){ left: 578px; top: 58px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
